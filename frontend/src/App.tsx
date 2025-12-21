@@ -4,7 +4,7 @@ import Canvas from "./components/Canvas";
 
 export default function App() {
   return (
-    <ReactFlowProvider fitView>
+    <ReactFlowProvider >
       <div
         style={{
           display: "flex",
@@ -14,7 +14,7 @@ export default function App() {
           margin: "auto",
         }}
       >
-        <div style={{ width: "30vw", flexShrink: 0 }}>
+        <div style={{ width: "20vw", flexShrink: 0 }}>
           <Sidebar />
         </div>
 
